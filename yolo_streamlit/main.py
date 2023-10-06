@@ -61,12 +61,8 @@ if start_button:
         cap = cv2.VideoCapture(get_camera()[camera_device])
 
     while cap.isOpened():
-        ret, frame = cap.read()
-        if not ret:
-            st.error("The video capture has ended")
-            break
-
-        frame = cv2.flip(frame, 1)
+        ret, frame = cap.read() # Capture frame from webcam   
+        frame = cv2.flip(frame, 1) # Flip frame
 
         # Inference
         res_segment = segment.predict(source=frame)
@@ -77,7 +73,7 @@ if start_button:
         pose_frame = pose_segment[0].plot(labels=False)
         image_placeholder.image(image=[segment_frame, pose_frame], width=screen_width, channels="BGR")
 
-        if cv2.waitKey(1) & 0xFF == ord("q") or stop_button_pressed:
+        if (cv2.waitKey(1) == 27) or stop_button_pressed:
             cap.release()
             cv2.destroyAllWindows()
             break
