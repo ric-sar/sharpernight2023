@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://github.com/ric-sar/sharpernight2023/assets/82369153/c542853d-26f9-4955-9d30-661500b4af02" alt="SHARPER Night 2023 Logo"><br>
+<img src="https://github.com/ric-sar/sharpernight2023/assets/82369153/a45f5939-aa7e-49aa-983b-463edaf2b35b" alt="SHARPER Night 2023 Logo"><br>
 
 This repo contains the YOLOv8 demonstration given during the SHARPER Night 2023 event.
 </div>
