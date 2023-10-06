@@ -88,11 +88,7 @@ def main():
     cap = cv2.VideoCapture(camera_device)
 
     while True:
-        ret, frame = cap.read() # Capture frame from webcam
-        if not ret:
-            print("The video capture has ended")
-            break
-    
+        ret, frame = cap.read() # Capture frame from webcam   
         frame = cv2.flip(frame, 1) # Flip frame
 
         # Inference
