@@ -53,8 +53,6 @@ streamlit run main.py --theme.base dark
 ```
 At the end of the process the default browser will be opened with the Streamlit application. The user must select the camera device to use and start capturing!
 
-**ALTERNATIVELY (Windows only) by running the ```run.bat``` file, the procedure will be automated.**
-
 ### To run the CLI version
 * Activate the ```sharpernight2023``` environment by running the command:
 ```
@@ -69,6 +67,9 @@ cd yolo_cli
 python main.py
 ```
 * The user must select the camera device by typing the corresponding camera device (e.g., a list of available device will be shown, the user must insert the corresponding camera device number) to use the YOLOv8. Then, the script will run and two separated windows will show the segmentation and pose estimation tasks.
+
+
+**ALTERNATIVELY (Windows only) by running the ```run.bat``` file, the procedure will be automated in both Webui and CLI versions.**
 
 ---
 
