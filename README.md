@@ -22,7 +22,7 @@ Thanks to the interest shown by the public in segmentation and pose estimation t
 
 ## How to run the YOLOv8 demo
 To run the YOLOv8 demonstration you have to:
-* Download this repo and extract all the files in your current working directory (e.g., ```C:\Users\Username```). The repo contains the Python YAML environment needed to run YOLOv8 and the YOLOv8 scripts (both in webui or cli)
+* Download this repo and extract all the files in your current working directory (e.g., ```C:\Users\Username```). The repo contains the Python YAML environment needed to run YOLOv8 and the YOLOv8 scripts (both in webUI or CLI)
 * Download and install the [Anaconda Distribution](https://www.anaconda.com/download) which is a cross-platform environment and package management system. It allows you to create, delete, update, clone, import, export environments and install, uninstall, search, update packages while solving dependency hell (if you need a more explainable guide, use [THIS](https://github.com/ric-sar/conda_cheatsheet)).
 
 By launching Conda you have to:
@@ -69,7 +69,7 @@ python main.py
 * The user must select the camera device by typing the corresponding camera device (e.g., a list of available device will be shown, the user must insert the corresponding camera device number) to use the YOLOv8. Then, the script will run and two separated windows will show the segmentation and pose estimation tasks.
 
 
-**ALTERNATIVELY (Windows only) by running the ```run.bat``` file, the procedure will be automated in both Webui and CLI versions.**
+**ALTERNATIVELY (Windows only) by running the ```run.bat``` file, the procedure will be automated in both WebUI and CLI versions.**
 
 ---
 
