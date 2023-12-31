@@ -35,10 +35,10 @@ At the end of the process you will be able to run the YOLOv8 scripts
 
 ## Run the demo
 The demonstration comes in two flavours:
-* Webui using Streamlit
+* WebUI using Streamlit
 * Command Line Interface (CLI)
 
-### To run the Streamlit Webui version
+### To run the Streamlit WebUI version
 * Activate the ```sharpernight2023``` environment by running the command:
 ```
 conda activate sharpernight2023
